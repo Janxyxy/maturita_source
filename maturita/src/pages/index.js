@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import { Analytics } from '@vercel/analytics/react';
 
 import styles from './index.module.css';
 
@@ -33,6 +34,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
       </main>
+      <Analytics />
     </Layout>
   );
 }
