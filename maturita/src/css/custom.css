@@ -4,27 +4,108 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Custom SPŠUL branding colors */
 :root {
   --ifm-color-primary: #ce4213;
   --ifm-color-primary-dark: #b63a0f;
   --ifm-color-primary-darker: #a5340d;
   --ifm-color-primary-darkest: #8d2c0a;
-  --ifm-color-primary-light:  #e04e17;
+  --ifm-color-primary-light: #e04e17;
   --ifm-color-primary-lighter: #e65a1b;
   --ifm-color-primary-lightest: #f06d1f;
+  
+  /* Enhanced typography */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  --ifm-line-height-base: 1.6;
+  
+  /* Better spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-global-radius: 6px;
+  
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(206, 66, 19, 0.1);
+  --ifm-code-background: #f6f8fa;
+  
+  /* Improved shadows */
+  --ifm-global-shadow-lw: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode enhancements */
 [data-theme='dark'] {
-  --ifm-color-primary: #ce4213;
-  --ifm-color-primary-dark: #b63a0f;
-  --ifm-color-primary-darker: #a5340d;
-  --ifm-color-primary-darkest: #8d2c0a;
-  --ifm-color-primary-light:  #e04e17;
-  --ifm-color-primary-lighter: #e65a1b;
-  --ifm-color-primary-lightest: #f06d1f;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #f06d1f;
+  --ifm-color-primary-dark: #e65a1b;
+  --ifm-color-primary-darker: #e04e17;
+  --ifm-color-primary-darkest: #ce4213;
+  --ifm-color-primary-light: #f28243;
+  --ifm-color-primary-lighter: #f39658;
+  --ifm-color-primary-lightest: #f5aa6c;
+  
+  /* Better dark mode backgrounds */
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #242424;
+  --ifm-code-background: #2d2d2d;
+  --docusaurus-highlighted-code-line-bg: rgba(240, 109, 31, 0.2);
+}
+
+/* Custom utility classes */
+.gradient-text {
+  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+/* Enhanced code blocks */
+.prism-code {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+/* Better button styling */
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+/* Improved sidebar */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Better table styling */
+table {
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  :root {
+    --ifm-spacing-horizontal: 1rem;
+  }
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.markdown > * {
+  animation: fadeIn 0.6s ease-out;
 }
