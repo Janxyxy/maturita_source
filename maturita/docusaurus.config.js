@@ -129,10 +129,6 @@ const config = {
             label: "Materiály",
           },
           {
-            type: "search",
-            position: "right",
-          },
-          {
             href: "https://github.com/Janxyxy/maturita_source",
             label: "GitHub",
             position: "right",
@@ -151,25 +147,13 @@ const config = {
                 to: "/docs/intro",
               },
               {
-                label: "Český jazyk",
-                to: "/docs/Český jazyk",
-              },
-              {
-                label: "Anglický jazyk",
-                to: "/docs/Anglický jazyk",
-              },
-              {
-                label: "Datové sítě",
-                to: "/docs/Datové-sítě",
-              },
-              {
-                label: "Počítačové vybavení",
-                to: "/docs/Počítačové vybavení",
+                label: "Všechny materiály",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: "🔗 Užitečné odkazy",
+            title: "Užitečné odkazy",
             items: [
               {
                 label: "GitHub Repository",
@@ -195,7 +179,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Maturitní materiály SPŠUL. Postaveno s ❤️ pomocí Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Maturitní materiály SPŠUL.`,
       },
       colorMode: {
         // Default to dark mode on first load
