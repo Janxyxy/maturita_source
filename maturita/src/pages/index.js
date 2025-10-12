@@ -28,37 +28,10 @@ function HomepageHeader() {
 }
 
 function HomepageFeatures() {
-  const features = [
-    {
-      title: "📚 Komplexní materiály",
-      description:
-        "Vše potřebné pro maturitu z informatiky na jednom místě - od základů po pokročilé témata.",
-    },
-    {
-      title: "🎯 Zaměřeno na praxi",
-      description:
-        "Materiály připravené podle skutečných maturitních požadavků SPŠUL Liberec.",
-    },
-    {
-      title: "🚀 Rychlé vyhledávání",
-      description:
-        "Intuitivní navigace a vyhledávání vám pomůže rychle najít potřebné informace.",
-    },
-  ];
-
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {features.map((feature, idx) => (
-            <div key={idx} className="col col--4">
-              <div className="text--center padding-horiz--md">
-                <h3>{feature.title}</h3>
-                <p>{feature.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="row">{/* Features section removed */}</div>
       </div>
     </section>
   );
