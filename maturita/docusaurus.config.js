@@ -61,9 +61,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Show last update author and date
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          // Disable last update info to avoid git dependency issues in deployment
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
           // Enable breadcrumbs
           breadcrumbs: true,
           // Edit this page links
