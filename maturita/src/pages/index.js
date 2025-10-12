@@ -18,22 +18,13 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
+            style={{ zIndex: 1000, position: "relative" }}
           >
             Vstoupit do materiálů
           </Link>
         </div>
       </div>
     </header>
-  );
-}
-
-function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">{/* Features section removed */}</div>
-      </div>
-    </section>
   );
 }
 
@@ -45,9 +36,7 @@ export default function Home() {
       description="Materiály pro maturitní zkoušku z informatiky SPŠUL Liberec - Český jazyk, Anglický jazyk, Datové sítě, Počítačové vybavení"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main>{/* HomepageFeatures component removed */}</main>
       <Analytics />
     </Layout>
   );
