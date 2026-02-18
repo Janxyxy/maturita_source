@@ -1,0 +1,103 @@
+---
+title: Otázka č. 12 - Logický adresový prostor a využítí rámců
+description: Vypracovaná maturitní otázka POV č.12
+last_update:
+  date: 02/22/2025
+  author: yowtfkrupz
+---
+
+# Otázka č. 12 - Logický adresový prostor a využití rámců
+
+## Logický adresový prostor (LAS)
+
+- Reprezentace adresního prostoru procesu, který je nezávislý na fyzické paměti.
+- Každý proces má vlastní logický adresový prostor, který je mapován na fyzickou paměť.
+- Logické adresy jsou překládány na fyzické adresy pomocí správy paměti (MMU - Memory Management Unit).
+- Umožňuje oddělení programů a ochranu paměti mezi procesy.
+
+### Příklad
+
+| Logická adresa       | Fyzická adresa     |
+| -------------------- | ------------------ |
+| Stránka 0, Offset 20 | Rámec 5, Offset 20 |
+| Stránka 1, Offset 15 | Rámec 3, Offset 15 |
+| Stránka 2, Offset 30 | Rámec 8, Offset 30 |
+
+## Využití rámců v paměťovém managementu
+
+- Paměť je rozdělena na rámce (stejně velké bloky fyzické paměti).
+- Logický adresový prostor je rozdělen na stránky stejné velikosti jako rámce.
+- Stránky procesu jsou mapovány na rámce fyzické paměti pomocí tabulky stránek.
+- Tento mechanismus eliminuje fragmentaci a zlepšuje efektivitu využití paměti.
+
+## Stránkovací tabulka a její struktura
+
+- Obsahuje mapování mezi logickými stránkami a fyzickými rámci.
+- Každý proces má vlastní stránkovací tabulku.
+- Struktura tabulky:
+  - Číslo stránky
+  - Číslo odpovídajícího rámce
+  - Doplňkové informace (přístupová práva, bit platnosti, bit změny atd.)
+- Možné optimalizace: víceúrovňové stránkování, invertované stránkovací tabulky.
+
+:::caution Pozor
+Při návrhu stránkovací tabulky je nutné zvážit její velikost a režii s ní spojenou. Velké tabulky mohou negativně ovlivnit výkon systému.
+:::
+
+### Příklad stránkovací tabulky
+
+| Stránka | Rámec | Platnost |
+| ------- | ----- | -------- |
+| 0       | 5     | Ano      |
+| 1       | 3     | Ano      |
+| 2       | 8     | Ano      |
+| 3       | -     | Ne       |
+
+## Správa paměti – přidělování rámců procesům
+
+- Operační systém přiděluje rámce procesům na základě jejich potřeb.
+- Používají se různé strategie přidělování:
+  - Fixní počet rámců pro každý proces.
+  - Variabilní přidělování na základě potřeby.
+  - Dynamické přerozdělování na základě pracovního souboru procesu.
+
+## Algoritmy pro správu rámců
+
+| Algoritmus                    | Popis                                                                                                               |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **FIFO (First-In-First-Out)** | Nejstarší stránka je nahrazena novou.                                                                               |
+| **LRU (Least Recently Used)** | Stránka, která nebyla nejdéle použita, je nahrazena.                                                                |
+| **Optimal Page Replacement**  | Nahrazuje stránku, která bude nejpozději potřeba (teoreticky nejefektivnější, ale těžko realizovatelný algoritmus). |
+| **Clock (Second Chance)**     | Vylepšená varianta FIFO, která dává stránkám „druhou šanci“.                                                        |
+
+:::tip Tip
+Algoritmus LRU je často efektivní volbou, protože odstraňuje stránky, které se nejméně používaly, což minimalizuje pravděpodobnost opětovného načtení.
+:::
+
+## Virtuální paměť a využití stránkování
+
+- Virtuální paměť umožňuje procesům využívat více paměti, než je fyzicky dostupné.
+- Stránky jsou dynamicky načítány do rámců na základě potřeby.
+- **Swapping** – Neaktivní stránky mohou být uloženy na disk a znovu načteny do RAM při potřebě.
+- **Demand Paging** – Stránky jsou načítány do paměti pouze tehdy, když jsou poprvé požadovány.
+
+## Výhody
+
+- Efektivnější využití paměti.
+- Možnost realizace virtuální paměti.
+- Ochrana paměti mezi procesy.
+- Eliminuje fragmentaci.
+
+## Nevýhody
+
+- Potřeba udržovat tabulky stránek.
+- Přídavná režie překladu adres.
+- Možné zpoždění při načítání dat z disku.
+
+---
+
+### Další související témata:
+
+- Stránkování vs. segmentace
+- Virtuální paměť
+- TLB (Translation Lookaside Buffer)
