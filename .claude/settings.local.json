@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where pandoc)",
+      "Bash(python -c \"import docx; print\\(''docx ok''\\)\")",
+      "Bash(pip install python-docx -q)",
+      "Bash(python -:*)"
+    ]
+  }
+}
