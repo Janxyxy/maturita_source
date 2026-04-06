@@ -75,3 +75,7 @@ jspm_packages/
 # Temporary folders
 tmp/
 temp/
+
+# Claude 
+/.claude
+.claude/settings.local.json
