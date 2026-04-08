@@ -32,9 +32,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title="Domovská stránka"
-      description="Materiály pro maturitní zkoušku z informatiky SPŠUL Liberec - Český jazyk, Anglický jazyk, Datové sítě, Počítačové vybavení"
+      title={`Vítejte na ${siteConfig.title}`}
+      description="Kompletní studijní materiály pro maturitní zkoušku – Informatika, ČJL, AJ a odborné předměty."
     >
+    
       <HomepageHeader />
       <main>{/* HomepageFeatures component removed */}</main>
       <Analytics />
