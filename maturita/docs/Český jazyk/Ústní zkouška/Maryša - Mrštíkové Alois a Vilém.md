@@ -9,7 +9,8 @@
 ``FORMA:`` Drama
 
 
-## Téma a motiv:Peníze, manželství pro peníze, majetkové rozdíly ve vesnici
+### Téma a motiv:
+Peníze, manželství pro peníze, majetkové rozdíly ve vesnici
 
 ### Časoprostor:
 19 stol, Moravská dědina

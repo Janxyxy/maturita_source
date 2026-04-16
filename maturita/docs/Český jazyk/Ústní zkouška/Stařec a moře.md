@@ -11,7 +11,8 @@
 ``FORMA:`` Próza
 
 
-## Téma a motiv:
+### Téma a motiv:
+
 Boj člověka s přírodou, nekončící zápas člověka s osudem, vůle k dosažení cíle
 
 ### Časoprostor:

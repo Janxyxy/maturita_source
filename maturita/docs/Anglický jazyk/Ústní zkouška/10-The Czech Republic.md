@@ -1,5 +1,7 @@
-# The Czech Republic
-## Part I.
+## The Czech Republic
+
+### Part I.
+
 - **Location:** Central Europe, borders with Poland to the north, Germany to the west, Austria to the south, and Slovakia to the east.
 - **National Parks:**
   - Krkonoše National Park (Oldest).

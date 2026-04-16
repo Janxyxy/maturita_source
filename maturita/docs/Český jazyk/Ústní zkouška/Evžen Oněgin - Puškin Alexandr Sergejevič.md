@@ -11,7 +11,8 @@
 ``FORMA:`` poezie
 
 
-## Téma a motiv:Osamělost, nenaplněná láska, ruská společnost
+### Téma a motiv:
+Osamělost, nenaplněná láska, ruská společnost
 
 ### Časoprostor:
 - Rusko, jeho vesnice a měst

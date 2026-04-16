@@ -11,7 +11,8 @@
 ``FORMA:`` Próza
 
 
-## Téma a motiv:Střet dětského a dospělého světa, kritika společnosti
+### Téma a motiv:
+Střet dětského a dospělého světa, kritika společnosti
 
 
 ### Časoprostor:

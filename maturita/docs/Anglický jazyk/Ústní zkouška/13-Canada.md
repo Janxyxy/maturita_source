@@ -1,5 +1,7 @@
-# Canada
-## Classic- **Location:** North America, borders with America.
+## Canada
+
+### Classic
+- **Location:** North America, borders with America.
 - **Oceans:** Pacific and Atlantic.
 - **Size:** Second-largest in the world, 126 times bigger than Czechia.
 - **Population:** 36 million.
