@@ -11,8 +11,7 @@
 ``FORMA:`` Próza
 
 
-### Téma a motiv:
-
+## Téma a motiv:
 - Morálka, osobnost, svědomí, charakter ve společnosti
 - Všechny špatné skutky jsou potrestány, na každého jednou dojde
 

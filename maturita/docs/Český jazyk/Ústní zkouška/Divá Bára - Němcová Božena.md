@@ -11,8 +11,7 @@
 ``FORMA:`` Próza
 
 
-### Téma a motiv:
-Ukázka vesnického života, postavení muže a ženy ve společnosti
+## Téma a motiv:Ukázka vesnického života, postavení muže a ženy ve společnosti
 
 ### Časoprostor:
 19 století - vesnice Vestec

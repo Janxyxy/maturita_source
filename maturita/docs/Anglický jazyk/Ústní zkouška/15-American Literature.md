@@ -1,7 +1,5 @@
-## American Literature: Ernest Hemingway (1899-1961)
-
-### Summary
-- **Notable Works:**
+# American Literature: Ernest Hemingway (1899-1961)
+## Summary- **Notable Works:**
   - *The Old Man and the Sea*
   - *A Farewell to Arms*
 - **Birth:** Oak Park, Illinois – 1899

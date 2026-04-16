@@ -1,7 +1,5 @@
-## Australia
-
-### Geography
-- **Location:** In the south-east from Asia.
+# Australia
+## Geography- **Location:** In the south-east from Asia.
 - **Oceans:** Indian Ocean, Pacific Ocean.
 - **Adjacent Regions:** Tasmania lies 240 km south, Indonesia, Papua New Guinea, Fiji, New Zealand.
 - **Characteristics:** Driest, flattest, smallest continent, the 6th largest country.

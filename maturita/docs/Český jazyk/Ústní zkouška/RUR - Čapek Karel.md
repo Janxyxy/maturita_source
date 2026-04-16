@@ -11,8 +11,7 @@
 ``FORMA:`` Drama
 
 
-### Téma a motiv:
-Vztah mezi stroji a lidmi, pokrok, lidé nechtějí pracovat
+## Téma a motiv:Vztah mezi stroji a lidmi, pokrok, lidé nechtějí pracovat
 
 
 ### Časoprostor:

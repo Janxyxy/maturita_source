@@ -11,8 +11,7 @@
 ``FORMA:`` próza
 
 
-### Téma a motiv:
-Chudoba, nespravedlnost, druhá šance, popis společnosti 19. století
+## Téma a motiv:Chudoba, nespravedlnost, druhá šance, popis společnosti 19. století
 
 
 ### Časoprostor:

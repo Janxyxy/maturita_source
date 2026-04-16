@@ -11,8 +11,7 @@
 ``FORMA:`` Próza
 
 
-### Téma a motiv:
-
+## Téma a motiv:
 Tématem je posedlost, tajemství a osud. Hlavní postava, důstojník Heřman, je posedlý získáním tajemství tří vyhrávajících karet. Síla peněz.
 ### Časoprostor:
 - Rusko

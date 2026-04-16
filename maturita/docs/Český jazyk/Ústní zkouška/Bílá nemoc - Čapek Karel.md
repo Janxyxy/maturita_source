@@ -11,8 +11,7 @@
 ``FORMA:`` Drama
 
 
-### Téma a motiv:
-- Epedemie, válka, zkažená společnost
+## Téma a motiv:- Epedemie, válka, zkažená společnost
 - Jeden proti davu nic moc nezmůže
 
 

@@ -10,8 +10,7 @@
 ``FORMA:`` próza
 
 
-### Téma a motiv:
-Kritika systému, ukázka totalitních režimů
+## Téma a motiv:Kritika systému, ukázka totalitních režimů
 
 ### Časoprostor:
 Anglie 20. století, venkovská farma

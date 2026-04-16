@@ -1,5 +1,4 @@
-## British Literature: William Shakespeare (16th-17th centuries)
-
+# British Literature: William Shakespeare (16th-17th centuries)
 - **Background:**
   - Father: Glove maker.
   - Wife: Anne Hathaway.
@@ -7,8 +6,7 @@
   - Notable Venue: The Globe Theatre.
   - Death: After a celebration.
 
-### Why Are His Plays Still Popular?
-- Beautiful lyrical language.
+## Why Are His Plays Still Popular?- Beautiful lyrical language.
 - Represents typical human nature.
 - Easy to identify with.
 
